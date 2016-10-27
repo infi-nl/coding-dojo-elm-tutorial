@@ -71,17 +71,23 @@ main =
         [ div []
             [ p [] [ text "Pipes are written as follows `<|` `|>` the pipes are used to pass results from one function to another." ]
             , text <| toString <| add 2 3
+              --
             , p [] [ text "This can be done both ways" ]
             , add 2 3 |> toString |> text
+              --
             , p [] [ text "Functions can be partially applied in Elm. See below." ]
             , add1 4 |> toString |> text
+              --
             , p [] [ text "Functions that take two arguments can be notated `infix` style" ]
             , 1 `times` 5 |> toString |> text
-            , p [] [ text "This is how you write anonymous functions. You don't need to use pipes to pass through results, parentheses can be used to determain what is passed into what. It's all about personal preference." ]
+              --
+            , p [] [ text "This is how you write anonymous functions. You don't need to use pipes to pass through results, parentheses can be used to determine what is passed into what. It's all about personal preference." ]
             , 1 |> \x -> (x + 4) |> toString |> text
             , text (toString (((\x y -> (x + y)) 1) 4))
+              --
             , p [] [ text "Function composition, returns a new function. See below." ]
             , text (toString (addSomethingTimes5 1))
+              --
             , p [] [ text "The returned function can ofcourse be giving a value to get the desired result" ]
             , text (toString ((addSomethingTimes5 1) 4))
             ]
