@@ -42,3 +42,9 @@ Open the elm files in your favourite text editor and get going!
 Lastly
 --
 Considering the amount of time we have, it is probably a good idea to not get stuck on a problem you experience with the language too long. We are here to help, so don't feel affraid to ask us to assist you, we're glad to help out (as much as we can, we're new to Elm as well!).
+
+Credits
+--
+
+- To [Robert Looby](https://github.com/robertjlooby) for the [koans](https://github.com/robertjlooby/elm-koans).
+- To [Matthijs](https://github.com/matthijsl) and [Erik](https://github.com/Glubus) for the tutorial.
