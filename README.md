@@ -1,5 +1,9 @@
 # Elm Tutorial - Infi
 
+----
+**⚠ Warning:** This repository is _frozen in time_, and getting no new (security) updates. It is left public, should it help and offer some guidance around its subjects to future visitors. However, for latest guidance on involved subjects, we recommend going to the official sources.
+----
+
 Intro
 --
 Here you will find a way for you to get to know the Elm language. If you've never programmed in any functional language (as opposed to an imperative language), you might find these examples and koans useful, especially before starting with the elm coding dojo assignment.
